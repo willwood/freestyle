@@ -1,0 +1,12 @@
+/*
+As an optional extra, if you want FreeStyle content hidden until after it's been moved to the designated FreeStyle banner container, simply add this CSS code to your theme:
+*/
+
+#contentWrapper #fs,
+#sidebar #fs {
+	display: none;
+}
+
+/*
+Edit that CSS code to reference the ID's of your theme content container and sidebar. Now FreeStyle content will only get rendered in the designated banner, and will not flash about on the screen, while the page is still loading.
+*/
